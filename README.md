@@ -4,8 +4,7 @@
 
 No backend · No API keys · Runs 100% offline · Beats most commercial tools on 2025 hyper-realistic fakes
 
-Live Demo → https://your-username.github.io/your-repo-name  
-(Replace the link after you deploy)
+Live Demo → https://jtperez25.github.io/hyper-real-ai-detector-dec-2025  
 
 https://github.com/user-attachments/assets/your-screenshot-here.png  
 ↑ Example: Flux.1 image correctly flagged at 94% confidence
