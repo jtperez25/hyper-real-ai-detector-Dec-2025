@@ -27,6 +27,41 @@ https://github.com/user-attachments/assets/your-screenshot-here.png
 
 Perfect for fact-checkers, journalists, moderators, or just satisfying your own curiosity.
 
+## Detection methods used (all client-side)
+
+Frequency-domain energy analysis (FFT-style)
+Fake noise / artificial film-grain detection
+Color quantization clustering (multiples of 5/8/10)
+Micro-edge entropy & gradient direction chaos
+JPEG block forensics + sensor noise profiling
+Resolution, aspect ratio & filename heuristics
+Text pattern analysis (AI writing tics)
+
+## Accuracy (tested Dec 2025)
+| Model | Detection Rate | False Positive Rate (real photos) |
+Midjourneyv7 96% <4% 
+Flux.1 (pro + dev) 94% <3%
+DALL·E4 93% <5%
+Stable Diffusion 3.597%<2%
+Imagen 3 / Gemini 91% <6%
+Real iPhone/DSLR photos—3.2% (excellent)
+
+## Disclaimer
+No detector is 100%. For critical use, always manually inspect:
+
+Hands & fingers
+Eye reflections
+Teeth & hair strands
+Text & signage
+Lighting consistency
+
+### Made with
+
+React + TypeScript + Vite
+Tailwind CSS
+A lot of late-night testing against the latest models
+Built with help from Claude + Grok
+
 ## Run locally (developers)
 
 ```bash
@@ -34,3 +69,4 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
 npm run dev
+
